@@ -1,5 +1,5 @@
-var o = require('ass-js/x86/operand');
-var Code = require('ass-js/x86/x64/code').Code;
+// var o = require('ass-js/x86/operand');
+// var Code = require('ass-js/x86/x64/code').Code;
 require('static-buffer/arraybuffer');
 var StaticBuffer = require('static-buffer/buffer').StaticBuffer;
 
