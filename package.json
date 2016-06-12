@@ -1,0 +1,28 @@
+{
+  "name": "cpuid",
+  "description": "x86 cpuid function",
+  "version": "1.0.2",
+  "keywords": [
+    "cpuid",
+    "x86",
+    "x64",
+    "x86_64",
+    "native",
+    "native-code",
+    "machine-code",
+    "asm",
+    "compiler",
+    "assembler"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/streamich/cpuid"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "static-buffer": "*"
+  },
+  "devDependencies": {
+    "ass-js": "1.0.1"
+  }
+}
