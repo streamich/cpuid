@@ -1,16 +1,20 @@
 # cpuid
 
-Execute x86 `cpuid` function you pass `eax` and `ecx` register values as arguments
-and 4 register response in returned as an array `[eax, ebx, edx, ecx]`.
+Execute any x86 `cpuid` call. You pass two arguments: `eax` and `ecx` register values and get back a response
+of 4 numbers in an array, the response returned as an array `[eax, ebx, edx, ecx]`.
 
 Example, when you execute `0, 0` call Intel returns `GenuineIntel` string
 in last three registers:
 
 ```js
 var cpuid = require('cpuid');
-
 var temp = cpuid(0, 0);
-console.log(temp);
+console.log(temp); // [ 13, 1970169159, 1231384169, 1818588270 ]
+```
+
+Now let's create a string out of that:
+
+```js
 var str = '';
 for(var i = 1; i < temp.length; i++) {
     var reg = temp[i];

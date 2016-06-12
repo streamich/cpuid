@@ -1,5 +1,5 @@
 {
-  "name": "cpuid",
+  "name": "cpuid-js",
   "description": "x86 cpuid function",
   "version": "1.0.2",
   "keywords": [
