@@ -23,6 +23,6 @@
     "static-buffer": "*"
   },
   "devDependencies": {
-    "ass-js": "1.0.1"
+    "ass-js": "1.0.6"
   }
 }
